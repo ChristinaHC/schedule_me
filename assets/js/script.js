@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Current date and time
-    $("#currentDate").text(moment().format("MMMM Do YYYY h:mm a"));
+    $("#currentDay").text(moment().format("MMMM Do YYYY h:mm a"));
 
      // Save button for scheduled task and time - works on click
      $(".saveBtn").on("click", function () {
